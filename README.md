@@ -6,10 +6,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `docker-compose up -d`
+
+Runs the app in the development mode.\
+Open [http://localhost](http://localhost) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `docker-compose down`
+
+Stops the Docker-Container
+
+### `docker exec -it product_react_app /bin/sh`
+
+Connects to docker-container
+
+After this you can run the following `npm` statements
+
+You do not need to run `npm install` - docker has already done it on creation
+
 ### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost](http://localhost) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
